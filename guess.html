@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guess.css">
+    <title>GUESS</title>
+</head>
+<body>
+    <div id="main">
+        <h2 id="heading">
+            GUESS THE NUMBER
+        </h2>
+        <div id="score">SCORE 10</div>
+        <br>
+        <div id="inputDiv">
+            <p id="hint">A number is random is generated between 0-100 , guess the number.</p> 
+            <div id="arrow"></div><span><i class="bi bi-arrow-up" id="up"></i><input type="text" value="0" id="input"><span><i class="bi bi-arrow-down" id="down"></i></span>
+        </div>
+        <div id="buttonDiv">
+            <button id="button" onclick="calculate()">GUESS</button>
+        </div>
+    </div>
+    <div class="homebtn">
+        <a href="index.html" id="linkhome">HOME</a>
+    </div>
+
+    <script src="guess.js"></script>
+</body>
+</html>
